@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F2E87761EE7CBF90024461B /* BaiDuOCRAccessTokenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E87751EE7CBF90024461B /* BaiDuOCRAccessTokenModel.swift */; };
+		7F2E877F1EE7FDB60024461B /* CustomerIDInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E877E1EE7FDB60024461B /* CustomerIDInfoModel.swift */; };
+		7F4699AC1EEE73A50070F2AB /* Even-OddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4699AB1EEE73A50070F2AB /* Even-OddView.swift */; };
+		7F6D672E1ED91495008B214C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6D672D1ED91495008B214C /* AppDelegate.swift */; };
+		7F6D67301ED91495008B214C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6D672F1ED91495008B214C /* ViewController.swift */; };
+		7F6D67331ED91495008B214C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F6D67311ED91495008B214C /* Main.storyboard */; };
+		7F6D67351ED91495008B214C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F6D67341ED91495008B214C /* Assets.xcassets */; };
+		7F6D67381ED91495008B214C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F6D67361ED91495008B214C /* LaunchScreen.storyboard */; };
+		F5CDF326DD1C597E9D36B61B /* Pods_Camare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC7EEE1BAD4972334DCBD01 /* Pods_Camare.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1963D4804C178AADE31DF0F8 /* Pods-Camare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Camare.release.xcconfig"; path = "Pods/Target Support Files/Pods-Camare/Pods-Camare.release.xcconfig"; sourceTree = "<group>"; };
+		1FA233B9C9206D2BC82C5504 /* Pods-Camare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Camare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Camare/Pods-Camare.debug.xcconfig"; sourceTree = "<group>"; };
+		7F2E87751EE7CBF90024461B /* BaiDuOCRAccessTokenModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaiDuOCRAccessTokenModel.swift; sourceTree = "<group>"; };
+		7F2E87771EE7EF7A0024461B /* Camare-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Camare-Bridging-Header.h"; sourceTree = "<group>"; };
+		7F2E877E1EE7FDB60024461B /* CustomerIDInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerIDInfoModel.swift; sourceTree = "<group>"; };
+		7F4699AB1EEE73A50070F2AB /* Even-OddView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Even-OddView.swift"; sourceTree = "<group>"; };
+		7F6D672A1ED91495008B214C /* Camare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Camare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F6D672D1ED91495008B214C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F6D672F1ED91495008B214C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7F6D67321ED91495008B214C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F6D67341ED91495008B214C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F6D67371ED91495008B214C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F6D67391ED91495008B214C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BC7EEE1BAD4972334DCBD01 /* Pods_Camare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Camare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F6D67271ED91495008B214C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CDF326DD1C597E9D36B61B /* Pods_Camare.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DBDDCF367E087104FD4A7E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BC7EEE1BAD4972334DCBD01 /* Pods_Camare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76FDBCCF728AF2FE27DD7CF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FA233B9C9206D2BC82C5504 /* Pods-Camare.debug.xcconfig */,
+				1963D4804C178AADE31DF0F8 /* Pods-Camare.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7F6D67211ED91495008B214C = {
+			isa = PBXGroup;
+			children = (
+				7F6D672C1ED91495008B214C /* Camare */,
+				7F6D672B1ED91495008B214C /* Products */,
+				76FDBCCF728AF2FE27DD7CF8 /* Pods */,
+				1DBDDCF367E087104FD4A7E1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7F6D672B1ED91495008B214C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F6D672A1ED91495008B214C /* Camare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F6D672C1ED91495008B214C /* Camare */ = {
+			isa = PBXGroup;
+			children = (
+				7F4699AB1EEE73A50070F2AB /* Even-OddView.swift */,
+				7F6D672D1ED91495008B214C /* AppDelegate.swift */,
+				7F6D672F1ED91495008B214C /* ViewController.swift */,
+				7F6D67361ED91495008B214C /* LaunchScreen.storyboard */,
+				7F6D67311ED91495008B214C /* Main.storyboard */,
+				7F6D67341ED91495008B214C /* Assets.xcassets */,
+				7F6D67391ED91495008B214C /* Info.plist */,
+				7F2E87751EE7CBF90024461B /* BaiDuOCRAccessTokenModel.swift */,
+				7F2E87771EE7EF7A0024461B /* Camare-Bridging-Header.h */,
+				7F2E877E1EE7FDB60024461B /* CustomerIDInfoModel.swift */,
+			);
+			path = Camare;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F6D67291ED91495008B214C /* Camare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F6D673C1ED91495008B214C /* Build configuration list for PBXNativeTarget "Camare" */;
+			buildPhases = (
+				C326D435003A8B97387D7296 /* [CP] Check Pods Manifest.lock */,
+				7F6D67261ED91495008B214C /* Sources */,
+				7F6D67271ED91495008B214C /* Frameworks */,
+				7F6D67281ED91495008B214C /* Resources */,
+				4489987992948BF4478D3D44 /* [CP] Embed Pods Frameworks */,
+				43A6A1054307034469A3744C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Camare;
+			productName = Camare;
+			productReference = 7F6D672A1ED91495008B214C /* Camare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F6D67221ED91495008B214C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = TaikangOnline;
+				TargetAttributes = {
+					7F6D67291ED91495008B214C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = H65JWXLNYF;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7F6D67251ED91495008B214C /* Build configuration list for PBXProject "Camare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F6D67211ED91495008B214C;
+			productRefGroup = 7F6D672B1ED91495008B214C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F6D67291ED91495008B214C /* Camare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F6D67281ED91495008B214C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F6D67381ED91495008B214C /* LaunchScreen.storyboard in Resources */,
+				7F6D67351ED91495008B214C /* Assets.xcassets in Resources */,
+				7F6D67331ED91495008B214C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43A6A1054307034469A3744C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Camare/Pods-Camare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4489987992948BF4478D3D44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Camare/Pods-Camare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C326D435003A8B97387D7296 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F6D67261ED91495008B214C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4699AC1EEE73A50070F2AB /* Even-OddView.swift in Sources */,
+				7F2E877F1EE7FDB60024461B /* CustomerIDInfoModel.swift in Sources */,
+				7F2E87761EE7CBF90024461B /* BaiDuOCRAccessTokenModel.swift in Sources */,
+				7F6D67301ED91495008B214C /* ViewController.swift in Sources */,
+				7F6D672E1ED91495008B214C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F6D67311ED91495008B214C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F6D67321ED91495008B214C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F6D67361ED91495008B214C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F6D67371ED91495008B214C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F6D673A1ED91495008B214C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F6D673B1ED91495008B214C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F6D673D1ED91495008B214C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FA233B9C9206D2BC82C5504 /* Pods-Camare.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = H65JWXLNYF;
+				INFOPLIST_FILE = Camare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taikang.yidongwangdian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Camare/Camare-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7F6D673E1ED91495008B214C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1963D4804C178AADE31DF0F8 /* Pods-Camare.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = H65JWXLNYF;
+				INFOPLIST_FILE = Camare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taikang.yidongwangdian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Camare/Camare-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F6D67251ED91495008B214C /* Build configuration list for PBXProject "Camare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F6D673A1ED91495008B214C /* Debug */,
+				7F6D673B1ED91495008B214C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F6D673C1ED91495008B214C /* Build configuration list for PBXNativeTarget "Camare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F6D673D1ED91495008B214C /* Debug */,
+				7F6D673E1ED91495008B214C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F6D67221ED91495008B214C /* Project object */;
+}
